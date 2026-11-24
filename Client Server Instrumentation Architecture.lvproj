@@ -22,6 +22,30 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="examples" Type="Folder">
+			<Item Name="Simple TCP - Client.vi" Type="VI" URL="../examples/Simple TCP - Client.vi"/>
+			<Item Name="Simple TCP - Server.vi" Type="VI" URL="../examples/Simple TCP - Server.vi"/>
+			<Item Name="Simple TCP.aliases" Type="Document" URL="../examples/Simple TCP.aliases"/>
+			<Item Name="Simple TCP.lvlps" Type="Document" URL="../examples/Simple TCP.lvlps"/>
+			<Item Name="Simple TCP.lvproj" Type="Document" URL="../examples/Simple TCP.lvproj"/>
+		</Item>
+		<Item Name="instrumentation drivers" Type="Folder">
+			<Item Name="Examples" Type="Folder">
+				<Item Name="Agilent 34401 Acquire and Chart - External Triggered.vi" Type="VI" URL="../instrumentation drivers/Examples/Agilent 34401 Acquire and Chart - External Triggered.vi"/>
+			</Item>
+			<Item Name="Private" Type="Folder"/>
+			<Item Name="Public" Type="Folder">
+				<Item Name="Configure" Type="Folder">
+					<Item Name="Low Level" Type="Folder"/>
+				</Item>
+				<Item Name="Data" Type="Folder">
+					<Item Name="Low Level" Type="Folder"/>
+				</Item>
+				<Item Name="Obsolete" Type="Folder"/>
+				<Item Name="Utility" Type="Folder"/>
+			</Item>
+			<Item Name="Agilent 34401.lvlib" Type="Library" URL="../instrumentation drivers/Agilent 34401.lvlib"/>
+		</Item>
 		<Item Name="Project Documentation" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Documentation Images" Type="Folder">
