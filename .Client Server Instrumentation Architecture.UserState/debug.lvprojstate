@@ -1,5 +1,40 @@
 <Configuration>
   <Target name="My Computer">
     <EnableDebuggingForAllVIs>0</EnableDebuggingForAllVIs>
+    <VI name="Agilent 34401 Acquire and Chart - External Triggered.vi">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="2467"/>
+          <SignalUID value="949"/>
+          <SignalUID value="6"/>
+          <SignalUID value="650"/>
+          <SignalUID value="956"/>
+          <SignalUID value="942"/>
+          <SignalUID value="524"/>
+          <SignalUID value="527"/>
+          <SignalUID value="310"/>
+          <SignalUID value="314"/>
+        </Generic>
+      </Probes>
+    </VI>
+    <VI name="Main.vi">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="2706"/>
+        </Generic>
+      </Probes>
+    </VI>
   </Target>
 </Configuration>

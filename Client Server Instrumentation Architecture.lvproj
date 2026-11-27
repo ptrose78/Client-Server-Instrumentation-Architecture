@@ -30,21 +30,23 @@
 			<Item Name="Simple TCP.lvproj" Type="Document" URL="../examples/Simple TCP.lvproj"/>
 		</Item>
 		<Item Name="instrumentation drivers" Type="Folder">
-			<Item Name="Examples" Type="Folder">
-				<Item Name="Agilent 34401 Acquire and Chart - External Triggered.vi" Type="VI" URL="../instrumentation drivers/Examples/Agilent 34401 Acquire and Chart - External Triggered.vi"/>
-			</Item>
-			<Item Name="Private" Type="Folder"/>
-			<Item Name="Public" Type="Folder">
-				<Item Name="Configure" Type="Folder">
-					<Item Name="Low Level" Type="Folder"/>
+			<Item Name="Agilent" Type="Folder">
+				<Item Name="Examples" Type="Folder">
+					<Item Name="Agilent 34401 Acquire and Chart - External Triggered.vi" Type="VI" URL="../instrumentation drivers/Agilent/Examples/Agilent 34401 Acquire and Chart - External Triggered.vi"/>
 				</Item>
-				<Item Name="Data" Type="Folder">
-					<Item Name="Low Level" Type="Folder"/>
+				<Item Name="Private" Type="Folder"/>
+				<Item Name="Public" Type="Folder">
+					<Item Name="Configure" Type="Folder">
+						<Item Name="Low Level" Type="Folder"/>
+					</Item>
+					<Item Name="Data" Type="Folder">
+						<Item Name="Low Level" Type="Folder"/>
+					</Item>
+					<Item Name="Obsolete" Type="Folder"/>
+					<Item Name="Utility" Type="Folder"/>
 				</Item>
-				<Item Name="Obsolete" Type="Folder"/>
-				<Item Name="Utility" Type="Folder"/>
+				<Item Name="Agilent 34401.lvlib" Type="Library" URL="../instrumentation drivers/Agilent/Agilent 34401.lvlib"/>
 			</Item>
-			<Item Name="Agilent 34401.lvlib" Type="Library" URL="../instrumentation drivers/Agilent 34401.lvlib"/>
 		</Item>
 		<Item Name="Project Documentation" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -75,6 +77,10 @@
 			</Item>
 			<Item Name="Queued Message Handler Documentation.html" Type="Document" URL="../documentation/Queued Message Handler Documentation.html"/>
 		</Item>
+		<Item Name="servers" Type="Folder">
+			<Item Name="Agilent 34401 Server 2.0.vi" Type="VI" URL="../servers/Agilent 34401 Server 2.0.vi"/>
+			<Item Name="Agilent 34401 Server.vi" Type="VI" URL="../servers/Agilent 34401 Server.vi"/>
+		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Message Queue.lvlib" Type="Library" URL="../support/Message Queue/Message Queue.lvlib"/>
@@ -84,6 +90,9 @@
 			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop.vi"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
+			<Item Name="Enums" Type="Folder">
+				<Item Name="Real or Simulation Mode.ctl" Type="VI" URL="../controls/Enums/Real or Simulation Mode.ctl"/>
+			</Item>
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
