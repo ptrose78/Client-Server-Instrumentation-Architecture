@@ -78,6 +78,9 @@
 			<Item Name="Queued Message Handler Documentation.html" Type="Document" URL="../documentation/Queued Message Handler Documentation.html"/>
 		</Item>
 		<Item Name="servers" Type="Folder">
+			<Item Name="controls" Type="Folder">
+				<Item Name="Agilent Settings Cluster.ctl" Type="VI" URL="../servers/controls/Agilent Settings Cluster.ctl"/>
+			</Item>
 			<Item Name="Agilent 34401 Server 2.0.vi" Type="VI" URL="../servers/Agilent 34401 Server 2.0.vi"/>
 			<Item Name="Agilent 34401 Server.vi" Type="VI" URL="../servers/Agilent 34401 Server.vi"/>
 		</Item>
