@@ -23,6 +23,30 @@
         </Generic>
       </Probes>
     </VI>
+    <VI name="Agilent 34401 Server.vi">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="1772"/>
+          <SignalUID value="1754"/>
+          <SignalUID value="5423"/>
+          <SignalUID value="4990"/>
+          <SignalUID value="5220"/>
+          <SignalUID value="5238"/>
+          <SignalUID value="1260"/>
+          <SignalUID value="1169"/>
+          <SignalUID value="2347"/>
+          <SignalUID value="3730"/>
+          <SignalUID value="3698"/>
+          <SignalUID value="3946"/>
+        </Generic>
+      </Probes>
+    </VI>
     <VI name="Main.vi">
       <Breakpoints>
         <NodeIndexes>
@@ -32,7 +56,53 @@
       </Breakpoints>
       <Probes>
         <Generic>
-          <SignalUID value="2706"/>
+          <SignalUID value="3687"/>
+          <SignalUID value="4295"/>
+          <SignalUID value="2417"/>
+        </Generic>
+      </Probes>
+    </VI>
+    <VI name="Message Queue.lvlib:Dequeue Message.vi">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="331"/>
+          <SignalUID value="204"/>
+        </Generic>
+      </Probes>
+    </VI>
+    <VI name="Message Queue.lvlib:Dequeue Message.vi:3320002">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="331"/>
+        </Generic>
+      </Probes>
+    </VI>
+    <VI name="Send Measurement.vi">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="460"/>
+          <SignalUID value="457"/>
+          <SignalUID value="1018"/>
+          <SignalUID value="1103"/>
+          <SignalUID value="478"/>
         </Generic>
       </Probes>
     </VI>

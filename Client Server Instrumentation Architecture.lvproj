@@ -81,11 +81,13 @@
 			<Item Name="controls" Type="Folder">
 				<Item Name="Agilent Settings Cluster.ctl" Type="VI" URL="../servers/controls/Agilent Settings Cluster.ctl"/>
 			</Item>
-			<Item Name="Agilent 34401 Server 2.0.vi" Type="VI" URL="../servers/Agilent 34401 Server 2.0.vi"/>
 			<Item Name="Agilent 34401 Server.vi" Type="VI" URL="../servers/Agilent 34401 Server.vi"/>
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Network" Type="Folder">
+				<Item Name="Send Measurement.vi" Type="VI" URL="../support/Network/Send Measurement.vi"/>
+			</Item>
 			<Item Name="Message Queue.lvlib" Type="Library" URL="../support/Message Queue/Message Queue.lvlib"/>
 			<Item Name="User Event - Stop.lvlib" Type="Library" URL="../support/User Event - Stop/User Event - Stop.lvlib"/>
 			<Item Name="Check Loop Error.vi" Type="VI" URL="../support/Check Loop Error.vi"/>
